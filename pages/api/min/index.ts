@@ -7,13 +7,13 @@ type Data = {
 }[]
 
 
-
+{/* Dados referentes a minutos */}
 export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
   res.status(200).json([
-    {time:'00',MinView: ' horas em ponto'},
+    {time:'00',MinView: ' em ponto'},
     {time:'01',MinView: ' e um'},
     {time:'02',MinView: ' e dois'},
     {time:'03',MinView: ' e três'},

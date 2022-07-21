@@ -1,5 +1,6 @@
 import type { AppProps } from 'next/app'
 import Head from "next/head";
+import './style.css'
 
 // add bootstrap css 
 import 'bootstrap/dist/css/bootstrap.css'
@@ -10,7 +11,8 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
     <Head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
- </Head>
+    <link rel="icon" href="/favicon.png" />
+  </Head>
   <Component {...pageProps} />
   </>
   )
