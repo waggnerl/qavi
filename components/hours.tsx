@@ -78,8 +78,10 @@ export default function Chronometer(){
   }
   {/* Apresenta horário em tela */} 
   function showTime(showHour:string,showMin:string){ 
-    if (isSpecificNumber){
+    if(isSpecificNumber && showHour === 'uma'){
       return showMin+showHour
+    }else if (isSpecificNumber){
+      return showMin+ 'as ' +showHour
     } else if(!isSpecificNumber){
       return showHour+showMin;
     }
