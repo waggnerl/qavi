@@ -1,0 +1,62 @@
+.containerDivide{
+margin-top:10rem
+}
+.containerChronometer{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.watch {
+  width: 6.25rem;
+  height: 6.25rem;
+  border-radius: 50%;
+  border:0.063rem ;
+  padding-top:1.563rem;
+  padding-left:0.125rem;
+  margin-bottom:0.938rem;
+  box-shadow: inset 0 0 0.5rem black;
+  color: black;
+  /*margin-left:7rem;*/
+  margin-top:0.938rem
+  }
+  
+@media (max-width: 480px) {
+  .watch {
+    padding-top:1.4rem;
+    width: 5rem;
+    height: 5rem;
+    /*margin-left:8rem*/
+  }
+  .containerDivide{
+    margin-top:9rem
+    }
+}
+
+
+.base{
+  color: white;
+  border-radius: 0.25rem;
+  text-shadow: 0 0.063rem 0.063rem rgba(0, 0, 0, 0.2);
+  border: 0.063rem;
+  margin-top: 1rem;
+}
+.base:hover{
+  font-size: 1.25rem;
+}
+
+.restart-button{
+  background: rgb(66, 184, 221);  
+}
+
+.stop-button{
+  background: rgb(202, 60, 60);
+}
+
+.start-button{
+  background: rgb(28, 184, 65);
+}
+form{
+  margin-top:0.938rem
+}
